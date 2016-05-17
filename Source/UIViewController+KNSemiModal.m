@@ -221,7 +221,7 @@ const struct KNSemiModalOptionKeys KNSemiModalOptionKeys = {
             semiViewFrame = CGRectMake(0, vf.size.height-semiViewHeight, vf.size.width, semiViewHeight);
         }
         
-        CGRect overlayFrame = CGRectMake(0, 0, vf.size.width, vf.size.height-semiViewHeight);
+        CGRect overlayFrame = CGRectMake(0, 0, vf.size.width, vf.size.height);
         
         // Add semi overlay
         UIView *overlay;
